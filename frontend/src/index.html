@@ -1,13 +1,51 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>DD Task</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="UTF-8">
+    <title>DD Task - Tutorials</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <app-root></app-root>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">DD Task</div>
+        <div class="nav-links">
+            <a href="#">Tutorials</a>
+            <a href="add.html">Add</a>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <!-- Search -->
+        <div class="search-bar">
+            <input type="text" placeholder="Search by title">
+            <button>Search</button>
+        </div>
+
+        <div class="content">
+
+            <!-- Left Side -->
+            <div class="left-panel">
+                <h2>Tutorials List</h2>
+                <div class="tutorial-item active">
+                    DD Task
+                </div>
+                <button class="remove-btn">Remove All</button>
+            </div>
+
+            <!-- Right Side -->
+            <div class="right-panel">
+                <h2>Tutorial</h2>
+                <p><strong>Title:</strong> DD Task</p>
+                <p><strong>Description:</strong> Testing Purpose</p>
+                <p><strong>Status:</strong> Pending</p>
+                <button class="edit-btn">Edit</button>
+            </div>
+
+        </div>
+    </div>
+
 </body>
 </html>
