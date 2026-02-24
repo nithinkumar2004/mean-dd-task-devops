@@ -1,2 +1,138 @@
-/* You can add global styles to this file, and also import other style files */
-@import "~bootstrap/dist/css/bootstrap.css";
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #2f3e4e;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* Container */
+.container {
+    padding: 40px;
+}
+
+/* Search */
+.search-bar {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.search-bar input {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.search-bar button {
+    padding: 8px 15px;
+    border: none;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+/* Layout */
+.content {
+    display: flex;
+    gap: 50px;
+}
+
+/* Left Panel */
+.left-panel {
+    width: 40%;
+}
+
+.left-panel h2 {
+    margin-bottom: 15px;
+}
+
+.tutorial-item {
+    background-color: #1976d2;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.remove-btn {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Right Panel */
+.right-panel {
+    width: 40%;
+}
+
+.right-panel h2 {
+    margin-bottom: 15px;
+}
+
+.right-panel p {
+    margin-bottom: 10px;
+}
+
+.edit-btn {
+    background-color: #fbc02d;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Form Page */
+.form-container {
+    width: 400px;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.form-container input {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.submit-btn {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
